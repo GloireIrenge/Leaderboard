@@ -15,10 +15,12 @@ body {
   font-size: 18px;
   padding-left: 30%;
 }
-button{
+
+button {
   background-color: #fff;
   padding: 5px;
 }
+
 .allElements {
   width: 100%;
   font-size: 2em;

@@ -1,19 +1,8 @@
-# <a href="https://gloireirenge.github.io/Art-exhibition-project/">Art-exhibition-project</a> :art:
+# Leaderboard App :art:
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Capstone Project for the Html,CSS,Javascipt module
 
-This project is to help demostrating or put into practice what we have learned at Microverse for the time we spent at Microverse program until now.
-
-## Destop Version
-![image](https://user-images.githubusercontent.com/37586807/181682401-cf859dde-ff05-4063-936b-ff47d6b3fb7d.png)
-
-
-## Mobile Version
-![image](https://user-images.githubusercontent.com/37586807/181682501-a62c5646-021e-42c5-8431-260829bc6c2a.png)
-![image](https://user-images.githubusercontent.com/37586807/181682596-f3956f57-6447-466d-85da-5a093516a7e2.png)
-
-
+This leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external
 ## Built With
 
 - Javascript, HTML, CSS

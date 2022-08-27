@@ -12,7 +12,6 @@ const FormData = () => {
     scoreInsert(userobj);
     submition[0].value = '';
     submition[1].value = '';
-    
   }
 };
 

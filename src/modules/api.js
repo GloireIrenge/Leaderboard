@@ -1,6 +1,7 @@
 import MyScores from './allScores.js';
 
 const fetchData = async () => {
+  // eslint-disable-next-line no-unused-vars
   const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/', {
     method: 'POST',
     headers: {
@@ -14,10 +15,10 @@ const fetchData = async () => {
       },
     ),
   });
-
 };
 
 const scoreInsert = async (o) => {
+  // eslint-disable-next-line no-unused-vars
   const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ow8Qqz9qnLnzWIgYozya/scores/', {
     method: 'POST',
     body: JSON.stringify(o),
@@ -26,7 +27,7 @@ const scoreInsert = async (o) => {
       'Content-type': 'application/json',
       'Access-Control-Allow-Origin': '*',
     },
-   
+
   });
 };
 

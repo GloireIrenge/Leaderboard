@@ -9,28 +9,15 @@ This leaderboard website displays scores submitted by different players. It also
 - Bootstrap
 - weblint, eslint, hint
 
-## Demo video
-
-[Watch video presentation](https://drive.google.com/file/d/1k78NKSefMXErNzXZnusDKf7H7UR_ceIR/view?usp=sharing)
-
-## Live Demo
-
-[Live Demo Link](https://gloireirenge.github.io/Art-exhibition-project/)
-
 
 ## Getting Started
-git clone https://gloireirenge.github.io/Art-exhibition-project.git
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-The basic requirements for building the executable are:
-
-- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
-- VSCode or any other equivalent code editor :atom:
-- Node Package Manager (For running, debuging, or installing dependancies to be used)
-- Webpack installed on your computer
+- clone the project using the command: git clone https://gloireirenge.github.io/Art-exhibition-project.git
+- install a working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- install VSCode or any other equivalent code editor :atom:
+- install Node Package Manager (For running, debuging, or installing dependancies to be used)
+- install Webpack on your computer
+- set up linters
 
 ### Install
 npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x

@@ -10,32 +10,30 @@ const fetchData = async () => {
     },
     body: JSON.stringify(
       {
-        name: 'Jibambenacode',
+        name: 'mufucoding',
       },
     ),
   });
-  // eslint-disable-next-line no-unused-vars
-  const data = await response.json();
+
 };
 
-const scoreInsert = async (obj) => {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/nnOBr2eapsi2r4jUDCrl/scores/', {
+const scoreInsert = async (o) => {
+  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ow8Qqz9qnLnzWIgYozya/scores/', {
     method: 'POST',
+    body: JSON.stringify(o),
     headers: {
       Accept: 'application/json',
-      'Content-Type': 'application/json',
+      'Content-type': 'application/json',
       'Access-Control-Allow-Origin': '*',
     },
-   // body: JSON.stringify(obj),
+   
   });
-  // eslint-disable-next-line no-unused-vars
-  const data = await response.json();
 };
 
 const container = document.querySelector('.ScoreList');
 
 const scoreList = async () => {
-  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/nnOBr2eapsi2r4jUDCrl/scores/', {
+  const response = await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/ow8Qqz9qnLnzWIgYozya/scores/', {
     method: 'GET',
   });
   const data = await response.json();

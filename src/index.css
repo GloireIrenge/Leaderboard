@@ -10,12 +10,13 @@ body {
   height: 100vh;
   width: 100%;
   background-color: #dbe2f34f;
+  font-size: 8px;
 }
 
 .title {
   padding-top: 5%;
   font-size: 16px;
-  padding-left: 30%;
+  padding-left: 33%;
 }
 
 button {

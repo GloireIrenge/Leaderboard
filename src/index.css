@@ -4,20 +4,22 @@
 }
 
 body {
+  border: 1px solid #2551c0;
   font-size: 57%;
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
   width: 100%;
+  background-color: #dbe2f34f;
 }
 
 .title {
-  padding-top: 2%;
-  font-size: 18px;
+  padding-top: 5%;
+  font-size: 16px;
   padding-left: 30%;
 }
 
 button {
-  background-color: #fff;
+  background-color: #c7d2e2;
   padding: 5px;
 }
 
@@ -53,7 +55,7 @@ button {
 }
 
 .sideElement .ScoreList li:nth-of-type(even) {
-  background-color: #00000018;
+  background-color: #6051e673;
 }
 
 .Forms {

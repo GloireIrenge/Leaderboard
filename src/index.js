@@ -1,19 +1,14 @@
-import fetch from './modules/localStorage.js';
-import MyScores from './modules/allScores.js';
+import { scoreList, fetchData } from './modules/api.js';
 import FormData from './modules/submition.js';
 import './index.css';
 
-const block = document.querySelector('.ScoreList');
 const reloader = document.querySelector('.reload');
-reloader.addEventListener('click', () => {
-  document.location.reload();
-});
-
-const Myscores = fetch();
-MyScores(Myscores, block);
+reloader.addEventListener('click', scoreList);
 
 const SubmitForm = document.querySelector('.submit');
 SubmitForm.addEventListener('click', (e) => {
   e.preventDefault();
-  FormData(block, Myscores);
+  FormData();
 });
+fetchData();
+scoreList();
